@@ -55,7 +55,7 @@
 
 #### WordPressの「サイトのURL」
 
-![wp-001](/docs/images/wp-001.jpeg)
+![wp-001](docs/images/wp-001.jpeg)
 
 　自分のWordPressサイトを開いて、アドレスバーにあります。
 　あとで「アプリケーションパスワード」を取る必要があるため、これは「http://」ではなく「https://」から始まる必要があります。
