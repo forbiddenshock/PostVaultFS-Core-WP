@@ -1,0 +1,16 @@
+{
+  "name": "PostVaultFS-Core-WP",
+  "version": "1.0.0",
+  "private": true,
+  "description": "X (Twitter) posts daily logger to WordPress (with media upload) and GitHub Markdown via Cloudflare Workers Cron",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test test/worker.test.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
+
