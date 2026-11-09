@@ -55,20 +55,21 @@
 
 #### WordPressの「サイトのURL」
 
-![wp-001](docs/images/wp-001.jpeg)
+<img width="3104" height="1914" alt="wp-001" src="https://github.com/user-attachments/assets/c0a7a32d-4130-4588-bcf8-d1702ae7a706" />
 
 　自分のWordPressサイトを開いて、アドレスバーにあります。
 　あとで「アプリケーションパスワード」を取る必要があるため、これは「http://」ではなく「https://」から始まる必要があります。
 
 #### WordPressの「ログインユーザー名」
 
-![wp-002](/Users/darktribe/Documents/img/readme/wp-002.jpeg)
+<img width="2869" height="1706" alt="wp-002" src="https://github.com/user-attachments/assets/ade87bd5-f254-4046-bd60-be1598023211" />
+
 
 　サイトにログインしている場合、サイト右上にアイコンがありますのでそれをクリックすると開くメニューに出ているのが「ログインユーザー名」です。
 
 #### WordPressの「アプリケーションパスワード」
 
-![wp-003](/Users/darktribe/Documents/img/readme/wp-003.jpeg)
+<img width="3104" height="1914" alt="wp-003" src="https://github.com/user-attachments/assets/2490487d-f413-4987-a7df-e2dccc0927a1" />
 
 　サイトにログインし、メニュー左側の「ユーザー」をクリックします。
 　切り替わった右側の画面を下までスクロールし、「アプリケーションパスワード」の中にある「新しいアプリケーションパスワード名」に適当な名前を入力し（この名前は特に使わないので自由に決めていいです）したの「アプリケーションパスワードを追加」を押すと、ポップアップで新しいアプリケーションパスワードが表示されます。
@@ -83,41 +84,41 @@
 
 #### Cloudflareの「Account ID」
 
-![cf001](/Users/darktribe/Documents/img/readme/cf001.jpeg)
+<img width="3104" height="1914" alt="cf001" src="https://github.com/user-attachments/assets/97bec6b8-1037-4681-b5f6-70995da0b4f4" />
 
 　画面左側、「コンピュート」をクリックし、開いたメニューで「Workers & Pages」を開きます。
 
-![cf002](/Users/darktribe/Documents/img/readme/cf002.jpeg)
+<img width="3104" height="1914" alt="cf002" src="https://github.com/user-attachments/assets/8198de79-7864-4029-b83e-998d10f47895" />
 
 　切り替わった画面、右側に「Account ID」があります。クリックしてコピーすると全てがコピーされるのでメモ帳などに貼り付けておいて下さい。
 
 #### Cloudflareの「API トークン」
 
-![cf003](/Users/darktribe/Documents/img/readme/cf003.jpeg)
+<img width="2877" height="1700" alt="cf003" src="https://github.com/user-attachments/assets/1891d383-bd58-4a0c-af03-401e168eabfc" />
 
 　画面右上、人物アイコンをクリックして開くメニューで「プロフィール」をクリックします。
 
-![cf004](/Users/darktribe/Documents/img/readme/cf004.jpeg)
+<img width="3104" height="1914" alt="cf004" src="https://github.com/user-attachments/assets/d78d9137-6d7d-4cca-91c4-bee657221c7a" />
 
 　切り替わった画面の左側、「APIトークン」をクリックします。
 
-![cf005](/Users/darktribe/Documents/img/readme/cf005.jpeg)
+<img width="3104" height="1914" alt="cf005" src="https://github.com/user-attachments/assets/6d25269a-9076-4367-9b90-312ee4d5dda8" />
 
 　切り替わった画面の右上、「トークンを作成する」をクリックします。
 
-![cf006](/Users/darktribe/Documents/img/readme/cf006.jpeg)
+<img width="3104" height="1914" alt="cf006" src="https://github.com/user-attachments/assets/f01ca272-cc3a-42ed-ad9c-472bd2430d4f" />
 
 　「トークン名」に適当な名前（ツールでは使わない情報です）を入れ、Policiesの中にある「Cloudflare Workers を編集する」をクリックします。
 
-![cf007](/Users/darktribe/Documents/img/readme/cf007-4233478.jpeg)
+<img width="3104" height="1914" alt="cf007" src="https://github.com/user-attachments/assets/f1f45ef6-40f4-48a3-8ddc-738fabf2ab48" />
 
 　Policiesは3つ設定があります。順に「鉛筆マーク」をクリックして設定します。
 
-![cf008](/Users/darktribe/Documents/img/readme/cf008.jpeg)
+<img width="3104" height="1914" alt="cf008" src="https://github.com/user-attachments/assets/72c955e7-8734-4294-9da1-fc21746e34e1" />
 
 　ゾーン Policyは①を「含む」、②を「アカウントにある全てのゾーン」、③は自分のアカウントを選びます。特に設定ボタンなど押さず「Edit ゾーン Policy」の横の×ボタンで閉じて良いです。
 
-![cf009](/Users/darktribe/Documents/img/readme/cf009.jpeg)
+<img width="3104" height="1954" alt="cf009" src="https://github.com/user-attachments/assets/e5450bd0-e641-4f08-9f2c-154e30fe6ae5" />
 
 　アカウント Policyは①を「含む」、②を自分のアカウントを選び、下にある「開発者プラットフォーム」をクリックして開き、「D1」の項目を「編集」にチェックを入れます。特に設定ボタンなど押さず「Edit ゾーン Policy」の横の×ボタンで閉じて良いです。
 
@@ -140,9 +141,9 @@
 
 　[X Developer Portal](https://developer.x.com/) でアプリを作成し、作成したアプリを開きます。
 
-![x-01](/Users/darktribe/Documents/img/readme/x-01.jpeg)
+<img width="3104" height="1954" alt="x-001" src="https://github.com/user-attachments/assets/e8b22700-deea-4012-8f7e-063cdef6087d" />
 
-　ベアラートークンという項目で再生成が可能なのでメモっておいて下さい
+　ベアラートークンという項目で再生成が可能なのでメモっておいて下さい。
 
 ---
 
@@ -150,31 +151,31 @@
 
 　記事をMarkdownでGitHubに保存したい人だけのオプションです。この機能が不要な人はこの作業をしなくて構いません。
 
-![gh-001](/Users/darktribe/Documents/img/readme/gh-001.jpg)
+<img width="3104" height="1954" alt="gh-001" src="https://github.com/user-attachments/assets/ee563004-87f6-4892-a3f5-15a5f01e8be8" />
 
 　GitHubにログイン後、画面右上の自分のアイコンをクリックし、開いたメニューから「Settings」を選びます。
 
-![gh-002](/Users/darktribe/Documents/img/readme/gh-002.jpeg)
+<img width="1508" height="1648" alt="gh-002" src="https://github.com/user-attachments/assets/59841cd2-5b3d-4fbb-81fa-c96f6c1f89e9" />
 
 　開いた画面を下がると、左側に「Developer settings」という項目があるのでそれをクリックします。
 
-![gh-003](/Users/darktribe/Documents/img/readme/gh-003.jpeg)
+<img width="1508" height="1056" alt="gh-003" src="https://github.com/user-attachments/assets/22c679bd-4bfe-4fe7-a055-552aeeb729d1" />
 
 　画面左側、「Personal access tokens」を開き、「Fine-grained tokens」をクリックします。
 　開いた画面、右上に「Generate new token」があるのでクリックします。
 
-![gh-004](/Users/darktribe/Documents/img/readme/gh-004.jpeg)
+<img width="1508" height="1493" alt="gh-004" src="https://github.com/user-attachments/assets/1531ec04-c1fd-422c-a689-960186ad805c" />
 
 　順に設定していきます。
 　①はトークン名なので好きに設定して下さい（X-Loggerでは使いません）。
 　②はトークンが失効する期間です。厳密に管理すべきなのですが、僕は面倒なので「No Expiration」（失効期限なし）にしています。自己責任でお願いします。
 　③はこのトークンがアクセスできるリポジトリを表します。少なくともForkしたリポジトリと、別のリポジトリにMarkdownを格納する場合そのリポジトリを選んで下さい。
 
-![gh-005](/Users/darktribe/Documents/img/readme/gh-005.jpeg)
+<img width="1508" height="1493" alt="gh-005" src="https://github.com/user-attachments/assets/5659b80d-d386-48f7-8fe1-368575c1a465" />
 
 　④については、まず「Add Permissions」をクリックし、開いたメニューを下に移動、「Contents」にチェックを入れます。
 
-![gh-006](/Users/darktribe/Documents/img/readme/gh-006.jpeg)
+<img width="1508" height="1493" alt="gh-006" src="https://github.com/user-attachments/assets/9e5939f0-8cdd-492b-8d0b-015a29bf3a01" />
 
 　自動で「Contents」と「Metadata」が入力されるので、「Contents」の「Access: Read-only」をクリックし、「Read and write」を選びます。
 　最後に画面下左側の「Generate token」を選ぶと最終確認ダイヤログがでたあと「Generate token」ボタンを押せばトークンが発行されます。
@@ -202,34 +203,34 @@
 
 　このリポジトリの右上にある「Fork」ボタンを押して、自分のGitHubアカウントにコピーします。
 
-![fork-001](/Users/darktribe/Documents/img/readme/fork-001.jpeg)
+<img width="3932" height="1716" alt="fork-001" src="https://github.com/user-attachments/assets/1a831368-f73c-4cd6-8846-6bf34347cfc0" />
 
-![fork-002](/Users/darktribe/Documents/img/readme/fork-002.jpeg)
+<img width="1528" height="1244" alt="fork-002" src="https://github.com/user-attachments/assets/218c3697-0258-4393-b5c8-09044b06ae13" />
 
 　もしMarkdown保存をする場合で、かつコピーしたリポジトリにMarkdownを格納したい場合、格納したMarkdownが見られてしまう可能性があるので、それを非公開にしたい場合はコピーしたリポジトリを「Settings」から「Private」に変更して下さい。
 
 ### ステップ2：GitHubに必要な情報をSecretsとして登録する
 
-![sec-001](/Users/darktribe/Documents/img/readme/sec-001.jpeg)
+<img width="1508" height="806" alt="sec-001" src="https://github.com/user-attachments/assets/f52adb0f-5c37-4aaa-898e-9fcf9a2dee20" />
 
 　コピーしたリポジトリの画面上にある「Setting」タブをクリックします。
 
-![sec-002](/Users/darktribe/Documents/img/readme/sec-002.jpeg)
+<img width="1508" height="1231" alt="sec-002" src="https://github.com/user-attachments/assets/f7c1371e-f400-41ac-877a-7f766c0e2235" />
 
 　画面左側、「Secrets and variables」を開き、「Actions」をクリックします。
 
-![sec-003](/Users/darktribe/Documents/img/readme/sec-003.jpeg)
+<img width="1508" height="990" alt="sec-003" src="https://github.com/user-attachments/assets/8f362a71-f463-4d4e-a127-a87222e9b65a" />
 
 　画面下、「New Repository secret」をクリックします。
 
-![sec-004](/Users/darktribe/Documents/img/readme/sec-004.jpeg)
+<img width="1508" height="824" alt="sec-004" src="https://github.com/user-attachments/assets/c49f2cde-7d39-4ba8-926d-be26f23dd581" />
 
 　この画面で必要情報を登録します。
 　①「Name」の項目に「キー名」を入力します。
 　②「Secret」の項目にSecretを入力します。
 　③「Add secret」を押して確定します。
 
-![sec-005](/Users/darktribe/Documents/img/readme/sec-005.jpeg)
+<img width="1508" height="1007" alt="sec-005" src="https://github.com/user-attachments/assets/d2641c17-b749-48b6-9c1a-fc4f7a02d9e8" />
 
 　戻ってきた画面はこちらです。続いて「New repository secret」を押して登録を続けます。
 　間違ったキー名を入れた場合はゴミ箱マークで消せますし、Secretを誤って入れた場合は鉛筆マークで上書きできます。
@@ -254,19 +255,19 @@
 
 ### ステップ3：GitHub Actionsを実行してPostVaultFS-Core-WPのサービスを開始する
 
-![run-001](/Users/darktribe/Documents/img/readme/run-001.jpeg)
+<img width="2894" height="1868" alt="run-001" src="https://github.com/user-attachments/assets/aeb83f85-9442-49c8-9d38-00fcb5ca7a41" />
 
 　リポジトリ上部にある「Actions」をクリックします。
 
-![run-002](/Users/darktribe/Documents/img/readme/run-002.jpeg)
+<img width="2918" height="1472" alt="run-002" src="https://github.com/user-attachments/assets/32dc40ec-0eda-41a2-84f2-2b016e31111d" />
 
 　もし「Workflows aren't being run on this forked repository」と表示されたら、緑色の 「I understand my workflows, go ahead and enable them」を押して有効化します。
 
-![run-003](/Users/darktribe/Documents/img/readme/run-003.jpeg)
+<img width="2912" height="1362" alt="run-003" src="https://github.com/user-attachments/assets/8dc542d7-ba77-4f33-b263-96f8b29a62b1" />
 
 左側のリストから「Deploy PostVaultFS-Core-WP to Cloudflare Workers」をクリックします。
 
-![run-004](/Users/darktribe/Documents/img/readme/run-004.jpeg)
+<img width="1407" height="735" alt="run-004" src="https://github.com/user-attachments/assets/cdf88a1b-7136-4e49-a4d4-09a3c24bf9f6" />
 
 ①画面右上の「Run workflow」ボタンを押すとメニューが開きます。
 
@@ -282,7 +283,6 @@
 　あとは指定した間隔でXの投稿がチェックされ、WordPressの「今日の記事」に追記、上書きされていきます。
 
 ※GitHubに保存されるMarkdownはAIなどに分析させると面白いデータが取れるかもしれません。
-
 
 
 ---
